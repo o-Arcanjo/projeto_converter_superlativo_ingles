@@ -4,9 +4,9 @@ config();
 (() => {
     const palavra = process.env.PALAVRA_INGLES_SUPERLATIVO;
     if (!palavra) {
-        throw new Error("A variável de ambiente PALAVRA_INGLES_SUPERLATIVO não está definida!");
+        console.error("A variável de ambiente PALAVRA_INGLES_SUPERLATIVO não está definida!");
     }
-const resultado : string = transformar(palavra);
+const resultado: string = palavra ? transformar(palavra) : "Valor inválido";
 console.log(resultado);
 })()
 
