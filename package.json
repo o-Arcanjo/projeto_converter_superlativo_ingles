@@ -1,0 +1,12 @@
+{
+  "name": "letra_transformar",
+  "version": "1.0.0",
+  "description": "converte adjetivos superlativos em inglês na forma correta",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start "
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
