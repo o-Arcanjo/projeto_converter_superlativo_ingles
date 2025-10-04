@@ -8,5 +8,11 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "pnpm": "^10.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2"
+  }
 }
